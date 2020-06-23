@@ -100,7 +100,7 @@ public class LabelExplanationComposite extends Composite {
 
 		StyledText hsContentExpLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
 		hsContentExpLabel.setText(
-				"Nefret söylemi farklı şekillerde yapılabilir, bu çalışmada başlıca içerik örnekleri şöyledir : Ahlaki hakaret, entellektüel beceriye hakaret, dış görünüşe hakaret, şiddet yanlılığı, küfür, lanet/beddua, simgeleştirme. Lütfen nefret söylemi olarak etiketlediğiniz bir tweet için en az bir tane içerik seçimi yapınız. Birden fazla seçim yapabilirsiniz. Bu listenin haricinde bir içerik türü olduğunu düşünüyorsanız, \"Diğer\" seçeneğini işaretleyip, içerik türünü yazınız.");
+				"Nefret söylemi farklı şekillerde yapılabilir, bu çalışmada başlıca içerik örnekleri şöyledir : Ahlaki hakaret, entellektüel beceriye hakaret, dış görünüşe hakaret, şiddet yanlılığı, küfür, lanet/beddua, simgeleştirme*. Lütfen nefret söylemi olarak etiketlediğiniz bir tweet için en az bir tane içerik seçimi yapınız. Birden fazla seçim yapabilirsiniz. Bu listenin haricinde bir içerik türü olduğunu düşünüyorsanız, \"Diğer\" seçeneğini işaretleyip, içerik türünü yazınız.");
 		hsContentExpLabel.setLayoutData(longTextGD);
 		hsContentExpLabel.setBackground(getShell().getBackground());
 		hsContentExpLabel.setEditable(false);
@@ -108,7 +108,7 @@ public class LabelExplanationComposite extends Composite {
 
 		StyledText hsSymbolizationExpLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
 		hsSymbolizationExpLabel.setText(
-				"* Simgeleştirmel, bir gruptan(ırk, cinsiyet vb.) kötü bir anlamı simgeleyecek şekilde bahsetmektir. Simgeleştirmede bir kimlik ögesi aşağılama unsuru olarak kullanılır. Örneğin \"Bizans’ın torunları\" sözü ile Avrupalılar aşağılanarak simgeleştirme yapılmaktadır.");
+				"* Simgeleştirme, bir gruptan(ırk, cinsiyet vb.) kötü bir anlamı simgeleyecek şekilde bahsetmektir. Simgeleştirmede bir kimlik ögesi aşağılama unsuru olarak kullanılır. Örneğin \"Bizans’ın torunları\" sözü ile Avrupalılar aşağılanarak simgeleştirme yapılmaktadır.");
 		hsSymbolizationExpLabel.setLayoutData(longTextGD);
 		hsSymbolizationExpLabel.setBackground(getShell().getBackground());
 		hsSymbolizationExpLabel.setEditable(false);

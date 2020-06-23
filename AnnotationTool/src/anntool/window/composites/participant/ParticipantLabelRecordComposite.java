@@ -44,7 +44,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 	private Label hsTypeLabel;
 	private Button racialButton;
 	private Button xenophobicButton;
-	private Button antiImmigrantButton;
 	private Button sexistButton;
 	private Button politicalButton;
 	private Button religiousTypeButton;
@@ -272,11 +271,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 		xenophobicButton.setEnabled(false);
 		xenophobicButton.setLayoutData(new GridData(SWT.LEFT, SWT.CENTER, true, false));
 
-		antiImmigrantButton = new Button(hsTypeCategoriesGroup, SWT.CHECK);
-		antiImmigrantButton.setText(HsTypeLabelCategory.ANTI_IMMIGRANT.toString());
-		antiImmigrantButton.setEnabled(false);
-		antiImmigrantButton.setLayoutData(new GridData(SWT.LEFT, SWT.CENTER, true, false));
-
 		sexistButton = new Button(hsTypeCategoriesGroup, SWT.CHECK);
 		sexistButton.setText(HsTypeLabelCategory.SEXIST.toString());
 		sexistButton.setEnabled(false);
@@ -491,8 +485,7 @@ public class ParticipantLabelRecordComposite extends Composite {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 
-				if ((!racialButton.getSelection() && !xenophobicButton.getSelection()
-						&& !antiImmigrantButton.getSelection() && !sexistButton.getSelection()
+				if ((!racialButton.getSelection() && !xenophobicButton.getSelection() && !sexistButton.getSelection()
 						&& !politicalButton.getSelection() && !religiousTypeButton.getSelection()
 						&& !otherHsTypeButton.getSelection())
 						|| (!specificPersonButton.getSelection() && !womenButton.getSelection()
@@ -500,9 +493,8 @@ public class ParticipantLabelRecordComposite extends Composite {
 								&& !europeanButton.getSelection() && !arabianButton.getSelection()
 								&& !kurdishButton.getSelection() && !akPartiButton.getSelection()
 								&& !chpButton.getSelection() && !hdpButton.getSelection()
-								&& !religiousTargetButton.getSelection()
-								&& !secularButton.getSelection() && !nationalistButton.getSelection()
-								&& !otherTargetButton.getSelection())
+								&& !religiousTargetButton.getSelection() && !secularButton.getSelection()
+								&& !nationalistButton.getSelection() && !otherTargetButton.getSelection())
 						|| (!moralButton.getSelection() && !intellectualButton.getSelection()
 								&& !appearanceButton.getSelection() && !violenceButton.getSelection()
 								&& !profanityButton.getSelection() && !curseButton.getSelection()
@@ -532,8 +524,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 					hsTypes.add(HsTypeLabelCategory.RACIAL);
 				if (xenophobicButton.getSelection())
 					hsTypes.add(HsTypeLabelCategory.XENOPHOBIC);
-				if (antiImmigrantButton.getSelection())
-					hsTypes.add(HsTypeLabelCategory.ANTI_IMMIGRANT);
 				if (sexistButton.getSelection())
 					hsTypes.add(HsTypeLabelCategory.SEXIST);
 				if (politicalButton.getSelection())
@@ -643,9 +633,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 
 			for (HsTypeLabelCategory hsType : label.getHsTypes()) {
 				switch (hsType) {
-				case ANTI_IMMIGRANT:
-					antiImmigrantButton.setSelection(true);
-					break;
 				case SEXIST:
 					sexistButton.setSelection(true);
 					break;
@@ -757,7 +744,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 		hsTypeLabel.setEnabled(true);
 		racialButton.setEnabled(true);
 		xenophobicButton.setEnabled(true);
-		antiImmigrantButton.setEnabled(true);
 		sexistButton.setEnabled(true);
 		politicalButton.setEnabled(true);
 		religiousTypeButton.setEnabled(true);
@@ -801,8 +787,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 		racialButton.setSelection(false);
 		xenophobicButton.setEnabled(false);
 		xenophobicButton.setSelection(false);
-		antiImmigrantButton.setEnabled(false);
-		antiImmigrantButton.setSelection(false);
 		sexistButton.setEnabled(false);
 		sexistButton.setSelection(false);
 		politicalButton.setEnabled(false);

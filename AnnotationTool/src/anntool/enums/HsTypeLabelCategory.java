@@ -4,7 +4,6 @@ public enum HsTypeLabelCategory
 {
     RACIAL("Irkçılık"),
     XENOPHOBIC("Yabancı Düşmanlığı"),
-    ANTI_IMMIGRANT("Göçmen Karşıtlığı"),
     SEXIST("Cinsiyetçilik"),
     POLITICAL("Politik Nefret"),
     RELIGIOUS("Dini Nefret"),

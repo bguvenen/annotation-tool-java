@@ -64,7 +64,7 @@ public class LabelExplanationComposite extends Composite {
 
 		StyledText hsTypeAttentionLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
 		hsTypeAttentionLabel.setText(
-				"* Dikkat! Irkçılık, yabancı düşmanlığı ve göçmen karşıtlığı birbiriyle alakalı türler olduğu için, seçim yaparken dikkatli olunuz. Irkçılık özel bir ırka olan nefret olup (örneğin siyahilere yönelik nefret), yabancı düşmanlığı kendi kültüründen olmayanlara yönelik nefrettir (örneğin memleketi A şehri olan birinin B şehrine olan nefreti de yabancı düşmanlığıdır). Göçmen karşıtlığı ise yabancı düşmanlığının bir türü olarak görülüp, kendi vatanında ya da memleketinde başka kültürden insanları istemeyen ve dışlayan bir tutum örnek olarak gösterilebilir");
+				" DİKKAT! Irkçılık ve yabancı düşmanlığı birbiriyle alakalı türler olduğu için seçim yaparken dikkatli olunuz. Irkçılık özel bir ırka olan nefret olup (örneğin siyahilere yönelik nefret), yabancı düşmanlığı kendi kültüründen olmayanlara yönelik nefrettir. Memleketi A şehri olan birinin B şehirli birine olan nefreti de yabancı düşmanlığı olabildiği gibi göçmen karşıtlığı da yabancı düşmanlığının bir alt türü olarak görülür. Yabancı düşmanları kendi vatanında ya da memleketinde başka kültürden insanları istemeyen ve dışlayan bir tutum sergilerler.");
 		hsTypeAttentionLabel.setLayoutData(longTextGD);
 		hsTypeAttentionLabel.setBackground(getShell().getBackground());
 		hsTypeAttentionLabel.setEditable(false);
@@ -86,7 +86,7 @@ public class LabelExplanationComposite extends Composite {
 
 		StyledText hsTargetAttentionLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
 		hsTargetAttentionLabel.setText(
-				"* Dikkat! Nefret söylemi bütün bir grubu hedef alabildiği gibi (örneğin kadınlar/erkekler aptaldır şeklinde), belirli bir kişiyi de hedefleyebilir (örneğin, x partisinin genel başkanı sahtekardır gibi), böyle bir durumda \"Belirli bir kişi\" seçeneğini seçiniz.");
+				" DİKKAT! Nefret söylemi bütün bir grubu hedef alabildiği gibi (örneğin kadınlar/erkekler aptaldır şeklinde), belirli bir kişiyi de hedefleyebilir (örneğin, x partisinin genel başkanı sahtekardır gibi), böyle bir durumda \"Belirli bir kişi\" seçeneğini seçiniz.");
 		hsTargetAttentionLabel.setLayoutData(longTextGD);
 		hsTargetAttentionLabel.setBackground(getShell().getBackground());
 		hsTargetAttentionLabel.setEditable(false);

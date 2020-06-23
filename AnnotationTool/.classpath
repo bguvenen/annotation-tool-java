@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/access-bridge-64.jar"/>
+	<classpathentry kind="lib" path="lib/charsets.jar"/>
+	<classpathentry kind="lib" path="lib/cldrdata.jar"/>
+	<classpathentry kind="lib" path="lib/dnsns.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/jaccess.jar"/>
+	<classpathentry kind="lib" path="lib/jce.jar"/>
+	<classpathentry kind="lib" path="lib/jfr.jar"/>
+	<classpathentry kind="lib" path="lib/jfxrt.jar"/>
+	<classpathentry kind="lib" path="lib/jsse.jar"/>
+	<classpathentry kind="lib" path="lib/localedata.jar"/>
+	<classpathentry kind="lib" path="lib/nashorn.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.commands_3.9.700.v20191217-1850.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common_3.11.0.v20200206-0817.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface_3.19.0.v20200218-1607.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.15.200.v20200214-1600.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar"/>
+	<classpathentry kind="lib" path="lib/resources.jar"/>
+	<classpathentry kind="lib" path="lib/rt.jar"/>
+	<classpathentry kind="lib" path="lib/sunec.jar"/>
+	<classpathentry kind="lib" path="lib/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="lib/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="lib/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
+	<classpathentry kind="lib" path="lib/zipfs.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

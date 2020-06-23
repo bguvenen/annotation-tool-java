@@ -38,8 +38,7 @@ public class ParticipantLabelRecordComposite extends Composite {
 
 	private Button hateSpeechButton;
 	private Button nonHateSpeechButton;
-	private Button hesitantButton;
-
+	
 	// Hs types
 	private Label hsTypeLabel;
 	private Button racialButton;
@@ -166,7 +165,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 				currentTweetId = tweetId;
 				hateSpeechButton.setEnabled(true);
 				nonHateSpeechButton.setEnabled(true);
-				hesitantButton.setEnabled(true);
 				showTweet(tweetId);
 			}
 		});
@@ -850,7 +848,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 
 		hateSpeechButton.setEnabled(false);
 		nonHateSpeechButton.setEnabled(false);
-		hesitantButton.setEnabled(false);
 
 		cleanAndDisableHsForm();
 	}

@@ -26,7 +26,7 @@ public class LabelExplanationComposite extends Composite {
 		mainGridLayout.marginWidth = 70;
 		setLayout(mainGridLayout);
 
-		GridData longTextGD = new GridData(SWT.LEFT, SWT.CENTER, true, true);
+		GridData longTextGD = new GridData(SWT.FILL, SWT.CENTER, true, true);
 		longTextGD.heightHint = 60;
 	
 		// Nefret Söylemi Nedir?

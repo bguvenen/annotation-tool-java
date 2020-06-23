@@ -37,4 +37,4 @@ Kaydettiğiniz dosyayı bguvenen@etu.edu.tr ya da busraguvenen@gmail.com adresin
 
 Herhangi bir sorunuz olduğunda yine bu adresler üzerinden ulaşabilirsiniz.
 
-Türkçe nefret söylemi tespiti kapsamında yapılan çalışmalardan biri olan bu projeye katılım sağladığınız için çok teşekkür ederiz.
+Türkçe nefret söylemi tespiti kapsamında yapılan bu çalışmaya katılım sağladığınız için çok teşekkür ederiz.

@@ -108,7 +108,7 @@ public class LabelExplanationComposite extends Composite {
 
 		StyledText hsSymbolizationExpLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
 		hsSymbolizationExpLabel.setText(
-				"* Simgeleştirme, bir gruptan(ırk, cinsiyet vb.) kötü bir anlamı simgeleyecek şekilde bahsetmektir. Simgeleştirmede bir kimlik ögesi aşağılama unsuru olarak kullanılır. Örneğin \"Bizans’ın torunları\" sözü ile Avrupalılar aşağılanarak simgeleştirme yapılmaktadır.");
+				"* Simgeleştirme, bir gruptan(ırk, cinsiyet vb.) kötü bir anlamı simgeleyecek şekilde bahsetmektir. Simgeleştirmede bir kimlik ögesi aşağılama unsuru olarak kullanılır. Örneğin \"Bizans’ın torunları\" sözü ile Rumlar aşağılanarak simgeleştirme yapılmaktadır.");
 		hsSymbolizationExpLabel.setLayoutData(longTextGD);
 		hsSymbolizationExpLabel.setBackground(getShell().getBackground());
 		hsSymbolizationExpLabel.setEditable(false);

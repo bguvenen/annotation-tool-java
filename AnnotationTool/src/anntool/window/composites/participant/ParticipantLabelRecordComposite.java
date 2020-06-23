@@ -189,7 +189,7 @@ public class ParticipantLabelRecordComposite extends Composite {
 
 		Composite choicesComp = new Composite(this, SWT.NONE);
 		choicesComp.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
-		GridLayout choicesGD = new GridLayout(3, false);
+		GridLayout choicesGD = new GridLayout(2, false);
 		choicesGD.horizontalSpacing = 30;
 		choicesComp.setLayout(choicesGD);
 
@@ -219,21 +219,6 @@ public class ParticipantLabelRecordComposite extends Composite {
 			public void widgetSelected(SelectionEvent e) {
 				TweetLabel tweetLabel = new TweetLabel(-1, currentTweetId, false, null, null, null, "");
 				Database.addLabelRecord(tweetLabel);
-				currentTweetId++;
-				showTweet(currentTweetId);
-			}
-		});
-
-		hesitantButton = new Button(choicesComp, SWT.PUSH);
-		hesitantButton.setText("Kararsızım");
-		GridData hesitantButtonGD = new GridData(SWT.LEFT, SWT.CENTER, true, false);
-		hesitantButtonGD.heightHint = 30;
-		hesitantButtonGD.widthHint = 200;
-		hesitantButton.setLayoutData(hesitantButtonGD);
-		hesitantButton.setEnabled(false);
-		hesitantButton.addSelectionListener(new SelectionAdapter() {
-			@Override
-			public void widgetSelected(SelectionEvent e) {
 				currentTweetId++;
 				showTweet(currentTweetId);
 			}

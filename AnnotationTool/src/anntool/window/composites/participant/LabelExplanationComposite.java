@@ -113,6 +113,22 @@ public class LabelExplanationComposite extends Composite {
 		hsSymbolizationExpLabel.setBackground(getShell().getBackground());
 		hsSymbolizationExpLabel.setEditable(false);
 		hsSymbolizationExpLabel.setCaret(null);
+		
+		StyledText hsCopyPasteExpLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
+		hsCopyPasteExpLabel.setText(
+				"Nefret söylemi olarak etiketlediğiniz tweet için, tür, hedef kitle ve içerik seçimlerini yaptıktan sonra, lütfen tweet'teki nefret söylemi içeren kelime ya da kelime öbeklerini kopyalayıp sağdaki boş alana yapıştırınız.");
+		hsCopyPasteExpLabel.setLayoutData(longTextGD);
+		hsCopyPasteExpLabel.setBackground(getShell().getBackground());
+		hsCopyPasteExpLabel.setEditable(false);
+		hsCopyPasteExpLabel.setCaret(null);
+		
+		StyledText thanksLabel = new StyledText(this, SWT.MULTI | SWT.WRAP);
+		thanksLabel.setText(
+				"Türkçe nefret söylemi tespiti kapsamında yapılan bu çalışmaya katılım sağladığınız için çok teşekkür ederiz.");
+		thanksLabel.setLayoutData(longTextGD);
+		thanksLabel.setBackground(getShell().getBackground());
+		thanksLabel.setEditable(false);
+		thanksLabel.setCaret(null);
 
 		//Button
 		Button button = new Button(this, SWT.PUSH);
